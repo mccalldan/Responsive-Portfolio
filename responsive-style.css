@@ -3,8 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/concrete_seamless.png");
-}
+  background: url("https://parade.com/wp-content/uploads/2014/03/Why-Do-Stars-All-Look-Almost-the-Same-Size-ftr.jpg")}
 
 * {
   box-sizing: border-box;
@@ -237,3 +236,118 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+    
+    
+
+    .main-section {
+        width: 420px;
+        float: left;
+        margin-left: 125px;
+    }
+
+    .auth-image {
+      width: 358px;
+
+    }
+
+    .sidebar {
+      margin-left: : 20px;
+      width: 266px;
+      margin-left: 36px;
+      float: left;
+    }
+
+    .work {
+      margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    nav {
+      margin-right: 15px;
+    }
+    
+
+    .auth-image {
+      width: 315px;
+    }
+  
+    .main-section {
+      margin-top: 15px;
+      width: 725px;
+      margin-left: 40px;
+      line-height: 1.25;
+      
+    }
+
+
+    #logo {
+      margin-left: 25px;
+    }
+    
+    
+    .sidebar {
+      margin-right: 15px;
+      margin-left: 40px;
+      max-width: 725px;
+      width: 650px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px) {
+    
+   .container {
+        text-align: center
+   }
+      
+    #masthead {
+      width: 610px;
+      z-index: 99;
+
+    }
+
+    .auth-image {
+      width: 535px;
+    }
+  
+    .main-section {
+      margin: 20px;
+      width: 600px;
+      margin-left: 40px;
+      line-height: 1.25;
+      background-color: yellow;
+    }
+  
+
+    #logo {
+      margin: 0 auto;
+      width: 100%;
+      z-index: 1;
+    }
+    
+    
+    .sidebar {
+      float: left;
+      margin: 20px;
+      max-width: 640px;
+      width: 600px;
+    }
+
+    nav {
+      margin: 0 auto;
+      width: 100%;
+      z-index: 1;
+      height: 40px;
+    }
+
+    footer {
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    }
